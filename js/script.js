@@ -21,9 +21,9 @@ for (let i = 1; i <= 100; i++) console.log(i % 3 === 0 && i % 5 === 0 ? "FizzBuz
 //FARFALLINO
 
 const stringa = prompt("Inserisci una parola");
-let finalStringa;
+let finalStringa = "";
 
-for (let i = 0; i <= stringa.length; i++) {
+for (let i = 0; i < stringa.length; i++) {
   stringa[i] === "a"
     ? (finalStringa += "afa")
     : stringa[i] === "e"
